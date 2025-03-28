@@ -7,6 +7,6 @@ export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("css");
   return {
     /* TODO: update below with name of your repo! */
-    pathPrefix: "/booster-2025-blog/",
+    pathPrefix: "/boosterblog/",
   };
 };
