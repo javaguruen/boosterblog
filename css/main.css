@@ -1,6 +1,7 @@
 @import "base.css"; /* Reset and base styles of unclassed html elements */
 @import "layout.css"; /* Scaffolding for a simple responsive page layout */
 @import "styles.css"; /* All other styles for bits and pieces using class names */
+@import "syntax-highlighting.css";
 
 /* CSS custom properties (variables) */
 :root {
