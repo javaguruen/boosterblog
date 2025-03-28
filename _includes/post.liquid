@@ -1,0 +1,14 @@
+---
+layout: main.liquid
+---
+
+<article class="txt">
+  <header class="txt-header">
+    <h1 class="txt-title">{{ title }}</h1>
+    <time class="txt-date" datetime="{{ page.date }}">
+      {{ page.date | readableDate }}
+    </time>
+    <div class="txt-author">{{ author }}</div>
+  </header>
+  <div>{{ content }}</div>
+</article>

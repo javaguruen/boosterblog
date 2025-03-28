@@ -1,0 +1,16 @@
+---
+layout: main.liquid
+---
+
+<ol class="list">
+  {%- for post in collections.post reversed -%}
+  <li>
+    <a class="list-link" href="{{ post.url | url }}">
+      <h2>
+        {{ post.data.title }}
+      </h2>
+      <span class="list-meta">{{ post.date | readableDate }}</span>
+    </a>
+  </li>
+  {%- endfor -%}
+</ol>

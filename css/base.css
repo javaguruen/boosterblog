@@ -1,0 +1,71 @@
+/* Reset and base styles of unclassed html elements */
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--textDark);
+  margin: 0;
+}
+
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+ul,
+ol {
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  padding-left: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+a,
+a:visited {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: 666;
+}
+
+a:hover {
+  color: var(--textDark);
+}
+
+hr {
+  border: 0;
+  border-top: 5px solid var(--highlightColor);
+  margin: 2.5rem 0 2rem 0;
+}
+
+blockquote {
+  font-style: italic;
+  color: #828282;
+  border-left: 5px solid var(--highlightColor);
+  padding-left: 1rem;
+  padding-right: 2rem;
+  margin: 0 0 1.5rem 1rem;
+}
+
+table {
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+}
+
+thead {
+  text-align: left;
+  background-color: var(--bgLight);
+}

@@ -1,0 +1,32 @@
+/* Scaffolding for a simple responsive page layout without media queries */
+
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page-header {
+  background-color: var(--bgDark);
+  color: var(--textLight);
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.page-content {
+  flex: 1;
+  margin: 1rem 0 2rem 0;
+}
+
+.page-footer {
+  background-color: var(--bgDark);
+  color: var(--textLight);
+  padding: 1rem 0;
+}
+
+/* This little wrapper class makes sure lines are readable on wide screens
+   and places all content it wraps nicely in the middle of the screen */
+.content-wrapper {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

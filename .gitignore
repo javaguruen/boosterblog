@@ -1,0 +1,5 @@
+# Ignore packages, the build workflow will want its own
+node_modules
+
+# Ignore the local build of static files from Eleventy
+_site

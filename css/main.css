@@ -1,0 +1,14 @@
+@import "base.css"; /* Reset and base styles of unclassed html elements */
+@import "layout.css"; /* Scaffolding for a simple responsive page layout */
+@import "styles.css"; /* All other styles for bits and pieces using class names */
+
+/* CSS custom properties (variables) */
+:root {
+  --bgLight: #eee;
+  --bgDark: #222;
+  --textLight: #fff;
+  --textDark: #333;
+  --link: #0867ba;
+  --variableFontBold: 900;
+  --highlightColor: #faa634;
+}

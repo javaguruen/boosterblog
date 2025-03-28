@@ -1,0 +1,46 @@
+.blog-title > a {
+  color: var(--highlightColor);
+}
+
+.blog-title > a:hover {
+  color: var(--textLight);
+}
+
+.txt {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.txt-header {
+  margin-bottom: 2rem;
+}
+
+.txt-title {
+  font-size: clamp(2rem, 3vw, 4rem);
+  font-weight: var(--variableFontBold);
+  line-height: 1;
+  border-bottom: 5px solid var(--highlightColor);
+  padding-bottom: 1rem;
+}
+
+.list {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.list-meta {
+  font-weight: normal;
+}
+
+a.list-link {
+  color: var(--text);
+  line-height: 1;
+  display: block;
+  padding: 1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+a.list-link:hover {
+  background-color: var(--bgLight);
+}
